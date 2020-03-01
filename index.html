@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="container demo">
+      <div class="content">
+        <div id="large-header" class="large-header">
+          <canvas id="demo-canvas"></canvas>
+          <h1 class="main-title"><span class="thin">Todo </span> List</h1>
+          <div id="container">
+            <div id="myDIV" class="header">
+              <input type="text" id="myInput" placeholder="Title..." />
+              <span onclick="newElement()" class="addBtn" style='font-size:12px;'>&#9533;</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <ul id="myUL">
+        <li>Gym</li>
+        <li class="checked">Work</li>
+        <li>Eat</li>
+        <li>Gym</li>
+        <li>Work</li>
+      </ul>
+    </div>
+  </body>
+  <footer class="footer">&copy; Copyright 2020 Bergs
+</footer>
+</html>
