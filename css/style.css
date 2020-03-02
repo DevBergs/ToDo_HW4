@@ -135,7 +135,7 @@ input {
 
 
 .addBtn {
-  padding: 0;
+  padding: 6.5px;
   background: grey;
   color: white;
   float: left;
@@ -275,7 +275,7 @@ input {
   }
 
   .addBtn {
-    padding: 0;
+    padding: 8px;
     width: 20%;
     background: none;
     color: white;
@@ -314,17 +314,4 @@ input {
 
 }
 
-@media (min-width: 576px) {
-
-  .addBtn {
-    padding: 8px;
-    width: 20%;
-    background: none;
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
-    border-radius: 0;
-  }
-}
+@media (min-width: 576px) {}
