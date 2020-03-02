@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  padding: 0;
+  
 }
 
 .large-header {
@@ -133,11 +133,11 @@ input {
   
 }
 
+
 .addBtn {
-  padding: 10px;
-  width: 20%;
-  background: #d9d9d9;
-  color: #555;
+  padding: 0;
+  background: grey;
+  color: white;
   float: left;
   text-align: center;
   font-size: 16px;
@@ -180,9 +180,17 @@ display: none;
   border: white solid 1px;
   background: rgba(163, 152, 152, 0.233);
   
-  
 }
 
+#container {
+  padding-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  }
+
+  input:hover{
+    background: rgba(230, 238, 123, 0.733);
+  }
 
 .demo .large-header {
   background-image: none;
@@ -294,7 +302,11 @@ input {
 
 #myDIV{
   padding: 0;
+  color: #a8eb12;
+  
 }
+
+
 
 }
 
