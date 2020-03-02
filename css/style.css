@@ -3,22 +3,21 @@
 
 }
 
-.large-header {
-  padding: 30px;
+#large-header {
+display: block;
+  padding: 20px;
+ 
 }
+
 
 .demo .large-header {
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
 }
 
 .main-title {
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  color: #F9F1E9;
-  text-align: center;
-  top: 20%;
-  left: 50%;
+  display: none;
+
+ 
   -webkit-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
 }
@@ -38,7 +37,7 @@ html {
 }
 
 body {
-  margin: 150px;
+  margin: 80px;
 
 }
 
@@ -313,5 +312,3 @@ input {
 
 
 }
-
-@media (min-width: 576px) {}
